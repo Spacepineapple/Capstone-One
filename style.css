@@ -58,3 +58,36 @@ section {
     display: flex;
     justify-content: center;
 }
+
+.images {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one two three"
+        "four five six";
+}
+
+#image-one {
+    grid-area: one;
+}
+
+#image-two {
+    grid-area: two;
+}
+
+#image-three {
+    grid-area: three;
+}
+
+#image-four {
+    grid-area: four;
+}
+
+#image-five {
+    grid-area: five;
+}
+
+#image-six {
+    grid-area: six;
+}
