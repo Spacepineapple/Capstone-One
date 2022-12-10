@@ -68,6 +68,11 @@ section {
         "four five six";
 }
 
+.gallery-image {
+    height: 500px;
+    width: auto;
+}
+
 #image-one {
     grid-area: one;
 }
