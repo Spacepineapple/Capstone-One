@@ -1,13 +1,19 @@
+body {
+    margin: 0;
+}
+
 nav {
     background-color: black;
     color: white;
+    margin-bottom: 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 nav a {
@@ -17,6 +23,7 @@ nav a {
 
 article {
     background-color: #3c3e3f;
+    margin-top: 0;
 }
 
 article ul {
@@ -36,6 +43,11 @@ h1 {
     text-align: center;
     color: white;
     font-size: 3rem;
+    margin: 0px;
+}
+
+section {
+    margin-top: 0;
 }
 
 .resource {
